@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069EB289C6E35324DDDCB4E1 /* HMMCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1364CBAE0F97889599A88900 /* HMMCore */; };
+		0ACAF434B0D15E541B56EB1F /* HapticSignaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DAE0234311029DEF76110F /* HapticSignaler.swift */; };
+		576DB35375525F5562903224 /* SpeechRollListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6172055EAD5EA341F3AF172 /* SpeechRollListener.swift */; };
+		6B75AD23BD9F8E6B88C9D914 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4DCC6B308C106AEC6DA4D2 /* ContentView.swift */; };
+		7CE372349E19500B6649560D /* HMMVerification in Frameworks */ = {isa = PBXBuildFile; productRef = 1046A982FEE43CFDD445D57D /* HMMVerification */; };
+		8AC1C347F628C0199510E0A3 /* DishonestCasinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175B37CBC35A10297CD1726 /* DishonestCasinoApp.swift */; };
+		8C47B9AB031D9C34EEB0AB27 /* HMMCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A49F6F4E092A4B491BCE6A /* HMMCoreTests.swift */; };
+		9D9AADBB7C73873FF71A6002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0CEE4B05FBD921440A1CD5 /* AppModel.swift */; };
+		CFA0F8BD4F654BE1B2E769BB /* HMMCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3EAE9D0B483DC60D199311AC /* HMMCore */; };
+		F7F450FD066607B7516BC59F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAFA7C0A70522E124CC53F /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F4DCC6B308C106AEC6DA4D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26C4AB2D916CABB31D71575B /* DishonestCasino.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DishonestCasino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33971AA938E5E3C6D96C172C /* HMMCoreTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HMMCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4175B37CBC35A10297CD1726 /* DishonestCasinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishonestCasinoApp.swift; sourceTree = "<group>"; };
+		96A49F6F4E092A4B491BCE6A /* HMMCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMMCoreTests.swift; sourceTree = "<group>"; };
+		9EBAFA7C0A70522E124CC53F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A3DAE0234311029DEF76110F /* HapticSignaler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSignaler.swift; sourceTree = "<group>"; };
+		AC0CEE4B05FBD921440A1CD5 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		EA6A906DF1EF084E1153272E /* allonblack */ = {isa = PBXFileReference; lastKnownFileType = folder; name = allonblack; path = ..; sourceTree = SOURCE_ROOT; };
+		F6172055EAD5EA341F3AF172 /* SpeechRollListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRollListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8052EF4B507C20919D3FC6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA0F8BD4F654BE1B2E769BB /* HMMCore in Frameworks */,
+				7CE372349E19500B6649560D /* HMMVerification in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB1340D5FDDE4D3F35C9D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069EB289C6E35324DDDCB4E1 /* HMMCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09722B8406EE6D729CC2AF48 /* allonblack */ = {
+			isa = PBXGroup;
+			children = (
+				397FB080C3DBD940E243FA27 /* Tests */,
+			);
+			name = allonblack;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		388365DE187E8A1CABF8430A /* DishonestCasino */ = {
+			isa = PBXGroup;
+			children = (
+				AC0CEE4B05FBD921440A1CD5 /* AppModel.swift */,
+				1F4DCC6B308C106AEC6DA4D2 /* ContentView.swift */,
+				4175B37CBC35A10297CD1726 /* DishonestCasinoApp.swift */,
+				A3DAE0234311029DEF76110F /* HapticSignaler.swift */,
+				9EBAFA7C0A70522E124CC53F /* SettingsView.swift */,
+				F6172055EAD5EA341F3AF172 /* SpeechRollListener.swift */,
+			);
+			path = DishonestCasino;
+			sourceTree = "<group>";
+		};
+		397FB080C3DBD940E243FA27 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9D85E71EBDB19D051A119 /* HMMCoreTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8E2E9174687F4D9B5BB0B00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C4AB2D916CABB31D71575B /* DishonestCasino.app */,
+				33971AA938E5E3C6D96C172C /* HMMCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA6E8A4075AF1D5D9F31639 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A906DF1EF084E1153272E /* allonblack */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		C21D2C2C3279ECB25C873BDB = {
+			isa = PBXGroup;
+			children = (
+				09722B8406EE6D729CC2AF48 /* allonblack */,
+				388365DE187E8A1CABF8430A /* DishonestCasino */,
+				BCA6E8A4075AF1D5D9F31639 /* Packages */,
+				8E2E9174687F4D9B5BB0B00F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D9D85E71EBDB19D051A119 /* HMMCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				96A49F6F4E092A4B491BCE6A /* HMMCoreTests.swift */,
+			);
+			path = HMMCoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6B6187B240429B2C7D103F /* HMMCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC293EDCB7089446A5511B5D /* Build configuration list for PBXNativeTarget "HMMCoreTests" */;
+			buildPhases = (
+				EFC7D4143C9B1A75EDBB73A0 /* Sources */,
+				8052EF4B507C20919D3FC6FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMMCoreTests;
+			packageProductDependencies = (
+				3EAE9D0B483DC60D199311AC /* HMMCore */,
+				1046A982FEE43CFDD445D57D /* HMMVerification */,
+			);
+			productName = HMMCoreTests;
+			productReference = 33971AA938E5E3C6D96C172C /* HMMCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED76029CF24C9E90992901CE /* DishonestCasino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF697F8BDD035FE2D115AEA1 /* Build configuration list for PBXNativeTarget "DishonestCasino" */;
+			buildPhases = (
+				3B79BD06635C93AF97B248E7 /* Sources */,
+				FDB1340D5FDDE4D3F35C9D7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DishonestCasino;
+			packageProductDependencies = (
+				1364CBAE0F97889599A88900 /* HMMCore */,
+			);
+			productName = DishonestCasino;
+			productReference = 26C4AB2D916CABB31D71575B /* DishonestCasino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C5367618E66926181283BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BC6B6187B240429B2C7D103F = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					ED76029CF24C9E90992901CE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03290F80AE5336F148F0F27C /* Build configuration list for PBXProject "DishonestCasino" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C21D2C2C3279ECB25C873BDB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				372352C3F09AB8CA73FE372B /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8E2E9174687F4D9B5BB0B00F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED76029CF24C9E90992901CE /* DishonestCasino */,
+				BC6B6187B240429B2C7D103F /* HMMCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B79BD06635C93AF97B248E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9AADBB7C73873FF71A6002 /* AppModel.swift in Sources */,
+				6B75AD23BD9F8E6B88C9D914 /* ContentView.swift in Sources */,
+				8AC1C347F628C0199510E0A3 /* DishonestCasinoApp.swift in Sources */,
+				0ACAF434B0D15E541B56EB1F /* HapticSignaler.swift in Sources */,
+				F7F450FD066607B7516BC59F /* SettingsView.swift in Sources */,
+				576DB35375525F5562903224 /* SpeechRollListener.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC7D4143C9B1A75EDBB73A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C47B9AB031D9C34EEB0AB27 /* HMMCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55F634F14FADA767086936E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berkeley.bioe131.HMMCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEDD70971B1B5C7DC5024941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berkeley.bioe131.HMMCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2AF763EDDB1F72B1C0F816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA9D9F5BCC45CFD80296ECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dishonest Casino";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listens for the dealer's announced die roll (via your Meta glasses' Bluetooth microphone or the phone microphone) to update the HMM.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Converts the spoken die number (one to six) into an observation. On-device recognition is used when available.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berkeley.bioe131.dishonestcasino;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F151D93818822D4B51995E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2EB50247ECD33D16741649D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dishonest Casino";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listens for the dealer's announced die roll (via your Meta glasses' Bluetooth microphone or the phone microphone) to update the HMM.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Converts the spoken die number (one to six) into an observation. On-device recognition is used when available.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.berkeley.bioe131.dishonestcasino;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03290F80AE5336F148F0F27C /* Build configuration list for PBXProject "DishonestCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2AF763EDDB1F72B1C0F816 /* Debug */,
+				F151D93818822D4B51995E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF697F8BDD035FE2D115AEA1 /* Build configuration list for PBXNativeTarget "DishonestCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9D9F5BCC45CFD80296ECE6 /* Debug */,
+				F2EB50247ECD33D16741649D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC293EDCB7089446A5511B5D /* Build configuration list for PBXNativeTarget "HMMCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD70971B1B5C7DC5024941 /* Debug */,
+				55F634F14FADA767086936E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		372352C3F09AB8CA73FE372B /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1046A982FEE43CFDD445D57D /* HMMVerification */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HMMVerification;
+		};
+		1364CBAE0F97889599A88900 /* HMMCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HMMCore;
+		};
+		3EAE9D0B483DC60D199311AC /* HMMCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HMMCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5C5367618E66926181283BB9 /* Project object */;
+}
